@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/laurasantana/Projects/MemberDiagnosisApp/MemberDiagnosisApp/MemberDiagnosisApp.csproj": {}
+  },
+  "projects": {
+    "/Users/laurasantana/Projects/MemberDiagnosisApp/MemberDiagnosisApp/MemberDiagnosisApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/laurasantana/Projects/MemberDiagnosisApp/MemberDiagnosisApp/MemberDiagnosisApp.csproj",
+        "projectName": "MemberDiagnosisApp",
+        "projectPath": "/Users/laurasantana/Projects/MemberDiagnosisApp/MemberDiagnosisApp/MemberDiagnosisApp.csproj",
+        "packagesPath": "/Users/laurasantana/.nuget/packages/",
+        "outputPath": "/Users/laurasantana/Projects/MemberDiagnosisApp/MemberDiagnosisApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/laurasantana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
